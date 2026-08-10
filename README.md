@@ -4,7 +4,8 @@
 -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6EE7B7,100:3B82F6&height=180&section=header&text=Hi%20there!%20%F0%9F%91%8B&fontSize=42&fontColor=ffffff&animation=fadeIn" />
+  <!-- TODO: swap for a GIF of your own if you'd rather not use this one -->
+  <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="450" />
 </p>
 
 <p align="center">

@@ -4,8 +4,7 @@
 -->
 
 <p align="center">
-  <!-- TODO: swap for a GIF of your own if you'd rather not use this one -->
-  <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="450" />
+  <img src="assets/banner.gif" width="450" />
 </p>
 
 <p align="center">
@@ -27,6 +26,15 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Green-Pinecone&style=for-the-badge&color=3B82F6&label=Profile+Views" />
+</p>
+
+<!-- TODO: won't render until the "Generate Snake Animation" workflow has run once (Actions tab -> Run workflow, or wait for the first scheduled run) -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Green-Pinecone/Green-Pinecone/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Green-Pinecone/Green-Pinecone/output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Green-Pinecone/Green-Pinecone/output/github-contribution-grid-snake.svg" />
+  </picture>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6EE7B7,100:3B82F6&height=3&width=100%25" />
@@ -212,6 +220,11 @@ A desktop choose-your-own-adventure / RPG set in a "cold war galaxy" universe â€
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Green-Pinecone&theme=algolia&no-frame=true&row=1&column=6" />
+</p>
+
+<!-- TODO: won't render until the METRICS_TOKEN secret is set and the "Generate Metrics Dashboard" workflow has run once -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Green-Pinecone/Green-Pinecone/main/metrics.svg" width="100%" />
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:6EE7B7,100:3B82F6&height=3&width=100%25" />

@@ -1,0 +1,35 @@
+name: Generate Metrics Dashboard
+
+# Regenerates a rich SVG dashboard (activity calendar, languages, streaks,
+# "habits") via lowlighter/metrics and commits it straight to main as
+# metrics.svg. The README embeds that file directly.
+#
+# Setup (one-time):
+#   1. Create a classic Personal Access Token with `repo` + `read:user` scopes
+#      (the default GITHUB_TOKEN can't read enough — e.g. cross-repo language
+#      stats or profile-level data — for most plugins below).
+#   2. Add it as a repo secret named METRICS_TOKEN:
+#      Settings -> Secrets and variables -> Actions -> New repository secret
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # daily at midnight UTC
+  workflow_dispatch: {}
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ${{ github.repository_owner }}
+          template: classic
+          base: "header, activity, community, repositories, metadata"
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_habits: yes
+          plugin_habits_charts_type: bars

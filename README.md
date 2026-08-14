@@ -209,17 +209,13 @@ A desktop choose-your-own-adventure / RPG set in a "cold war galaxy" universe â€
 
 ### ðŸ“Š GitHub Stats
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Green-Pinecone&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Green-Pinecone&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+<!-- github-readme-stats.vercel.app (stats/top-langs) and github-profile-trophy.vercel.app
+     were dropped: both public demo deployments are dead at the infrastructure level
+     (DEPLOYMENT_PAUSED / DEPLOYMENT_DISABLED, not just rate-limited) as of 2026-08-14.
+     The metrics dashboard below covers similar ground (activity, languages, streaks). -->
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Green-Pinecone&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Green-Pinecone&theme=algolia&no-frame=true&row=1&column=6" />
 </p>
 
 <!-- TODO: won't render until the METRICS_TOKEN secret is set and the "Generate Metrics Dashboard" workflow has run once -->
